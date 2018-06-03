@@ -1,4 +1,6 @@
+import numpy as np
 from enum import Enum
+import MapSection
 
 class Size(Enum):
     SMALL = 5
@@ -6,8 +8,10 @@ class Size(Enum):
     LARGE = 25
 
 def generateMap(size):
-    map = None
-    #todo generate the map (2d array of map sections)
+    map = np.empty([size, size], dtype=MapSection)
+    for x in range(size):
+        for y in range(size):
+            map[x, y] = MapSection.generateMapSection(x, y)
     return map
 
 class World():
