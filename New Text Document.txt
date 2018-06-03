@@ -1,1 +1,28 @@
-nothing
+Tribe Evolution Simulator
+
+World Class.
+	Size Class
+		Small, Med, Large,
+
+	Environment Class
+		Desert, Mountains, Tundra, Swamp.
+		Animals	
+
+Tribe Class.
+	Size Class
+		Small, Med, Large,
+
+	Sustainability
+
+	Type
+		Hunter, Gatherer.
+
+	Skillset
+
+Person Class.
+	Skillset
+	Armor
+	Weapon
+	
+
+Pet Class.
