@@ -17,7 +17,7 @@ Tribe Class.
 	Type
 		Hunter, Gatherer.
 
-	Skillset
+	Skill Predilection
 
 Person Class.
 	Skillset
