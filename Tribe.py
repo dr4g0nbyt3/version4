@@ -8,6 +8,6 @@ class Tribe:
         self.skillPredilection = 3
         self.property[tiles] = 1
 
-    def grow():
+    def grow(self):
         self.size += 1
         self.population -= 1
