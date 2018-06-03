@@ -6,4 +6,9 @@ class Pet:
         self.groundSpeed = 2
         self.airSpeed = 3
         self.canFly = false
-        self.quickness
+        self.quickness = 4
+        self.attack = 6
+        self.defence = 8
+        self.specialAttack = 4
+        self.specialDefence = 4
+        self.health = 10

@@ -9,7 +9,7 @@ class Type(Enum):
     TUNDRA = 5
 
 
-class Environment():
+class Environment:
     def __init__(self, type, animals):
         self.type = type
         self.animals = animals
