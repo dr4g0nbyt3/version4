@@ -9,7 +9,8 @@ def generateMapSection(xPos, yPos):
     altitude = randint(MIN_ALTITUDE, MAX_ALTITUDE)
     return MapSection(environment, altitude, xPos, yPos)
 
-class MapSection():
+
+class MapSection:
     def __init__(self, environment, altitude, xPos, yPos):
         self.environment = environment
         self.altitude = altitude
