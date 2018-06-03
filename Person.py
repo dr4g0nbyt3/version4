@@ -25,4 +25,4 @@ class Person:
         self.alchemy = 4
         self.crafting = 4
         self.combat = 10
-        
+        self.sailing = 3
