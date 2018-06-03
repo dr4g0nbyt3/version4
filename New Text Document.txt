@@ -4,9 +4,12 @@ World Class.
 	Size Class
 		Small, Med, Large,
 
-	Environment Class
-		Desert, Mountains, Tundra, Swamp.
-		Animals	
+
+    Map Section Class.
+        Environment Class
+            Desert, Mountains, Tundra, Swamp.
+            Animals
+
 
 Tribe Class.
 	Size Class
