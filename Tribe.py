@@ -13,6 +13,23 @@ class Tribe:
         for p in range(self.population):
             self.persons.append(Person())
 
-    def grow(self):
+    def grow(self, tile):
         self.size += 1
-        self.population -= 1
+        self.property.append(tile)
+
+    def prepareAttack(self):
+        # Build militia
+        train(self)
+        grow(self, tileTowardsEnemy)
+
+
+    def attack(self):
+        # Move militia
+        move(self, militia)
+
+    def train(self):
+        # Train soldiers.
+        # List what you are able to train.
+        combat(twohighestskilledcombatants)
+        combat(highestskilledlowestskilledcombatants)
+        combat(twohighestskilledcombatants)

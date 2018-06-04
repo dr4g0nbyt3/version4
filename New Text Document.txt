@@ -4,11 +4,9 @@ World Class.
 	Size Class
 		Small, Med, Large,
 
-
-    Map Section Class.
-        Environment Class
-            Desert, Mountains, Tundra, Swamp.
-            Animals
+	Environment Class
+		Desert, Mountains, Tundra, Swamp.
+		Animals	
 
 
 Tribe Class.
@@ -22,8 +20,13 @@ Tribe Class.
 
 	Skill Predilection
 
+    Create a base set and allow for hybrid evolutions.
+        Ex: Hunter base set takes over gatherer base set becomes Hunter Gatherer Hybrid.
+
+
+
 Person Class.
-	Skillset
+	Skill set
 	Armor
 	Weapon
 	
