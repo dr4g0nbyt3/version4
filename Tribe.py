@@ -9,23 +9,29 @@ class Tribe:
         self.type = 1
         self.skillPredilection = 3
         self.property[tiles] = 1
+        self.evolution = 1
+        self.efficiency = 5
 
         for p in range(self.population):
             self.persons.append(Person())
+
+    def work(self):
+        # Labor Phase.
+        for p in range(self.population):
+            self.persons
 
     def grow(self, tile):
         self.size += 1
         self.property.append(tile)
 
+    def attack(self):
+        # Move militia
+        move(self, militia)
+
     def prepareAttack(self):
         # Build militia
         train(self)
         grow(self, tileTowardsEnemy)
-
-
-    def attack(self):
-        # Move militia
-        move(self, militia)
 
     def train(self):
         # Train soldiers.

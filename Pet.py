@@ -2,7 +2,7 @@ class Pet:
 
     # Pet Skill Set
 
-    def __init__(self):
+    def __init__(self, name):
         self.groundSpeed = 2
         self.airSpeed = 3
         self.canFly = false
@@ -12,3 +12,4 @@ class Pet:
         self.specialAttack = 4
         self.specialDefence = 4
         self.health = 10
+        self.name = name

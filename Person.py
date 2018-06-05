@@ -2,7 +2,7 @@ class Person:
 
     # Person skill set
 
-    def __init__(self):
+    def __init__(self, name):
         self.strength = 4
         self.agility = 3
         self.accuracy = 3
@@ -26,3 +26,4 @@ class Person:
         self.crafting = 4
         self.combat = 10
         self.sailing = 3
+        self.name = name

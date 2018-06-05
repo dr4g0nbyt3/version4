@@ -7,6 +7,7 @@ class Type(Enum):
     SWAMP = 3
     DESERT = 4
     TUNDRA = 5
+    BEACH = 6
 
 
 class Environment:

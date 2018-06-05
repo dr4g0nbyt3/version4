@@ -10,6 +10,8 @@ World Class.
 
 
 Tribe Class.
+
+    I am thinking about having a phase based system to set how the Tribe grows.
 	Size Class
 		Small, Med, Large,
 
