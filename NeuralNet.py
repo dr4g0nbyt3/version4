@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
     # Train the neural network using a training set.
     # Do it 10,000 times and make small adjustments each time.
-    NeuralNet.train(trainingSetInputs, trainingSetOutputs, 10000)
+    NeuralNet.train(trainingSetInputs, trainingSetOutputs, 100000)
 
     print "New synaptic weights after training: "
     print NeuralNet.synapticWeights
