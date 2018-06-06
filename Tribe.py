@@ -1,7 +1,8 @@
 class Tribe:
 
-    # skills: Social, Economic, Housing,
+    # Skills: Social, Economic, Housing,
 
+    # Initialise variables.
     def __init__(self):
         self.size = 2
         self.population = 5
@@ -15,11 +16,13 @@ class Tribe:
         for p in range(self.population):
             self.persons.append(Person())
 
+    # Run the work function for all persons in the tribe on start.
     def work(self):
         # Labor Phase.
         for p in range(self.population):
             self.persons.work
 
+    # Run the grow function for the tribe.
     def grow(self, tile):
         self.size += 1
         self.property.append(tile)

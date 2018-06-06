@@ -1,11 +1,11 @@
 class Person:
 
-    # Person skill set
-
+    # Skill sets
     highestSkillSet = mining, smithing, crafting
     nextHighestSkillSet = construction, farming, strength
     tribeSkillSet = fishing, cooking, archery
 
+    # Initialise all of the starting variables.
     def __init__(self, name):
         self.strength = 6
         self.agility = 3
@@ -31,6 +31,7 @@ class Person:
         self.sailing = 3
         self.name = name
 
+    # Work function to start the work for the persons turn.
     def work(self):
         # 50% chance to work on highest skill set.
         # 25% chance to work on next highest skill set.
