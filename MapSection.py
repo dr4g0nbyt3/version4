@@ -4,6 +4,7 @@ MAX_ALTITUDE = 1000
 MIN_ALTITUDE = -1000
 
 
+# Add perlin noise algorithm
 def generateMapSection(xPos, yPos):
     environment = randint(1, len(Environment.Type))
     altitude = randint(MIN_ALTITUDE, MAX_ALTITUDE)

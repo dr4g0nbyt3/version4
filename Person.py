@@ -1,9 +1,9 @@
 class Person:
 
     # Skill sets
-    highestSkillSet = mining, smithing, crafting
-    nextHighestSkillSet = construction, farming, strength
-    tribeSkillSet = fishing, cooking, archery
+    # highestSkillSet = mining, smithing, crafting
+    # nextHighestSkillSet = construction, farming, strength
+    # tribeSkillSet = fishing, cooking, archery
 
     # Initialise all of the starting variables.
     def __init__(self, name):
