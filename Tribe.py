@@ -18,7 +18,7 @@ class Tribe:
     def work(self):
         # Labor Phase.
         for p in range(self.population):
-            self.persons
+            self.persons.work
 
     def grow(self, tile):
         self.size += 1

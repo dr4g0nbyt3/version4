@@ -29,7 +29,11 @@ Tribe Class.
 
 Person Class.
 	Skill set
+	    highest skill set.
+	    second highest skill set.
+	    tribe skill set.
 	Armor
+	    Should this develop over time for the skills they work in or acquire pieces over time that can be used by a smith, leather worker etc.
 	Weapon
 	
 
