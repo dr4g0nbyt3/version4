@@ -55,6 +55,7 @@ if __name__ == "__main__":
 
     print "Random starting synaptic weights: "
     print NeuralNet.synapticWeights
+    print trainingSetInputs
 
     # The training set. We have 4 examples, each consisting of 3 input values
     # and 1 output value.
