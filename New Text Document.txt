@@ -42,3 +42,24 @@ Pet Class.
 
 Neural Net:
     Return a group string or a name string.
+
+
+Running list of ideas:
+    How the game will play out:
+        tribes created - each with x amount of people
+            - with roughly even spread of job/skills (some variance depending on environment and the tribe)
+        -people start working to get resources/make advancements
+        -people consume resources to live and reproduce
+        -once population gets large enough, expand into new sections (pick unoccupied sections first)
+        -if no unoccupied sections, go to war - winner gets a section from the loser.
+            -winner also keeps some of the buildings/tech/resources the loser had in that section (this is part of the evolution)
+        -if a tribe loses their last section, they are eliminated
+        -war takes up a lot of resources while it's going on
+
+    Things to develop with resources:
+        -buildings - (stone/wood) - allows for higher population
+        -science stuff - (general resources and money) - unlock new tech - faster tribe growth
+        -food - (hunting/gathering) - allows maintaining/growing a population - food type depends on environment
+        -weapons - (wood/stone/metal/tech advancements) - used to win wars
+        -trade - if surplus of one resource can trade with other tribe for different resource (have many factors affect the trade value of items)
+            -can't trade with a tribe you're at war with
