@@ -59,13 +59,13 @@ if __name__ == "__main__":
     # The training set. We have 4 examples, each consisting of 3 input values
     # and 1 output value.
     trainingSetInputs = array([[0, 0, 1], [1, 1, 1], [1, 0, 1], [0, 1, 1]])
-    trainingSetOutputs = array([[0, 1, 1, 0]]).T
+    trainingSetOutputs = array([[0, 1, 1, 0]])
 
     print trainingSetInputs
     print trainingSetOutputs
-    
+
     # Train the neural network using a training set.
-    # Do it 10,000 times and make small adjustments each time.
+    # Do it 100,000 times and make small adjustments each time.
     NeuralNet.train(trainingSetInputs, trainingSetOutputs, 100000)
 
     print "New synaptic weights after training: "
@@ -73,4 +73,4 @@ if __name__ == "__main__":
 
     # Test the neural network with a new situation.
     print "Considering new situation [1, 0, 0] -> ?: "
-print NeuralNet.think(array([1, 0, 0]))
+    print NeuralNet.think(array([1, 0, 0]))
