@@ -42,6 +42,7 @@ Pet Class.
 
 Neural Net:
     Return a group string or a name string.
+    I have a prediction that having a strong blacksmith will make the difference early game.
 
 
 Running list of ideas:
@@ -53,6 +54,7 @@ Running list of ideas:
         -once population gets large enough, expand into new sections (pick unoccupied sections first)
         -if no unoccupied sections, go to war - winner gets a section from the loser.
             -winner also keeps some of the buildings/tech/resources the loser had in that section (this is part of the evolution)
+            - The trick that is going to be so crucial is to create a society that is specific in it's own way.
         -if a tribe loses their last section, they are eliminated
         -war takes up a lot of resources while it's going on
 
