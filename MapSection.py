@@ -17,3 +17,7 @@ class MapSection:
         self.altitude = altitude
         self.xPos = xPos
         self.yPos = yPos
+        self.tribe = None
+
+    def addTribe(self, tribe):
+        self.tribe = tribe

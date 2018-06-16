@@ -1,3 +1,5 @@
+from random import randint
+
 class Person:
 
     # Skill sets
@@ -36,6 +38,6 @@ class Person:
         # 50% chance to work on highest skill set.
         # 25% chance to work on next highest skill set.
         # 25% chance to be influenced to work with tribe.
-        randint
+        randint()
 
 
